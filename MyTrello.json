@@ -1,0 +1,107 @@
+{
+    "boards" : [
+        {
+            "id" : 1,
+            "boardDescription" : "C#"
+        },
+        {
+            "id" : 2,
+            "boardDescription" : "Mathematics"
+        },
+        {
+            "id" : 3,
+            "boardDescription" : "C"
+        }
+    ],
+    "lists" : [
+        {
+            "id" : 1,
+            "boardId" : 1,
+            "listTitle" : "Udemy course on C# - Week-1"
+        },
+        {
+            "id" : 2,
+            "boardId" : 1,
+            "listTitle" : "Udemy course on C# - Week-2"
+        },
+        {
+            "id" : 3,
+            "boardId" : 2,
+            "listTitle" : "Trigonometry - Week-1"
+        },
+        {
+            "id" : 4,
+            "boardId" : 3,
+            "listTitle" : "Basic commands - Week-1"
+        }
+
+    ],
+    "cards" : [
+        {
+            "id" : 1,
+            "listId" : 1,
+            "cardTitle" : "Section 1: Course Fundamentals (Theory)",
+            "cardMembers" : [
+                {"member": "Alberto Sacilotto"},
+                {"member": "Alessandro Sacilotto"}
+            ],
+            "cardLabel" : "On Track",
+            "cardDueDate" : "2022-07-22T12:59:00.000Z",
+            "cardCompleted" : false,
+            "cardDescription" : "Introduction to the.NET environment",
+            "cardActivity" : "Wrap-up notes about this section"
+        },
+        {
+            "id" : 2,
+            "listId" : 1,
+            "cardTitle" : "Section 2: C# Language Basics",
+            "cardMembers" : [
+                {"member": "Alberto Sacilotto"},
+                {"member": "Alessandro Sacilotto"}
+            ],
+            "cardLabel" : "On Track",
+            "cardDueDate" : "2022-07-29T12:59:00.000Z",
+            "cardCompleted" : false,
+            "cardDescription" : "Practical starts here",
+            "cardActivity" : "Wrap-up notes about this section"
+        },
+        {
+            "id" : 3,
+            "listId" : 3,
+            "cardTitle" : "Sinus and cosinus meaning",
+            "cardMembers" : [],
+            "cardLabel" : "On Track",
+            "cardDueDate" : "2022-05-08T12:59:00.000Z",
+            "cardCompleted" : false,
+            "cardDescription" : "~~~~~~",
+            "cardActivity" : "Wrap-up notes about this section"
+        },
+        {
+            "id" : 4,
+            "listId" : 4,
+            "cardTitle" : "C Language Basic",
+            "cardMembers" : [],
+            "cardLabel" : "On Track",
+            "cardDueDate" : "2022-05-15T12:59:00.000Z",
+            "cardCompleted" : false,
+            "cardDescription" : "~~~~~~",
+            "cardActivity" : "Wrap-up notes about this section"
+        }
+
+
+    ],
+    "cardCheckList" : [
+        {
+            "id" : 1,
+            "cardId" : 1,
+            "cardCheckListCompleted" : false,
+            "cardCheckListDescription": "1. Introduction to .NET"
+        },
+        {
+            "id" : 2,
+            "cardId" : 1,
+            "cardCheckListCompleted" : false,
+            "cardCheckListDescription": "2. CLI"
+        }
+    ]
+}

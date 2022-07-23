@@ -1,0 +1,421 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "boards": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "boardDescription": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "boardDescription"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "boardDescription": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "boardDescription"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "boardDescription": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "boardDescription"
+          ]
+        }
+      ]
+    },
+    "lists": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "boardId": {
+              "type": "integer"
+            },
+            "listTitle": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "boardId",
+            "listTitle"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "boardId": {
+              "type": "integer"
+            },
+            "listTitle": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "boardId",
+            "listTitle"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "boardId": {
+              "type": "integer"
+            },
+            "listTitle": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "boardId",
+            "listTitle"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "boardId": {
+              "type": "integer"
+            },
+            "listTitle": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "boardId",
+            "listTitle"
+          ]
+        }
+      ]
+    },
+    "cards": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "listId": {
+              "type": "integer"
+            },
+            "cardTitle": {
+              "type": "string"
+            },
+            "cardMembers": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "member": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "member"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "member": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "member"
+                  ]
+                }
+              ]
+            },
+            "cardLabel": {
+              "type": "string"
+            },
+            "cardDueDate": {
+              "type": "string"
+            },
+            "cardCompleted": {
+              "type": "boolean"
+            },
+            "cardDescription": {
+              "type": "string"
+            },
+            "cardActivity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "listId",
+            "cardTitle",
+            "cardMembers",
+            "cardLabel",
+            "cardDueDate",
+            "cardCompleted",
+            "cardDescription",
+            "cardActivity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "listId": {
+              "type": "integer"
+            },
+            "cardTitle": {
+              "type": "string"
+            },
+            "cardMembers": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "member": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "member"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "member": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "member"
+                  ]
+                }
+              ]
+            },
+            "cardLabel": {
+              "type": "string"
+            },
+            "cardDueDate": {
+              "type": "string"
+            },
+            "cardCompleted": {
+              "type": "boolean"
+            },
+            "cardDescription": {
+              "type": "string"
+            },
+            "cardActivity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "listId",
+            "cardTitle",
+            "cardMembers",
+            "cardLabel",
+            "cardDueDate",
+            "cardCompleted",
+            "cardDescription",
+            "cardActivity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "listId": {
+              "type": "integer"
+            },
+            "cardTitle": {
+              "type": "string"
+            },
+            "cardMembers": {
+              "type": "array",
+              "items": {}
+            },
+            "cardLabel": {
+              "type": "string"
+            },
+            "cardDueDate": {
+              "type": "string"
+            },
+            "cardCompleted": {
+              "type": "boolean"
+            },
+            "cardDescription": {
+              "type": "string"
+            },
+            "cardActivity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "listId",
+            "cardTitle",
+            "cardMembers",
+            "cardLabel",
+            "cardDueDate",
+            "cardCompleted",
+            "cardDescription",
+            "cardActivity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "listId": {
+              "type": "integer"
+            },
+            "cardTitle": {
+              "type": "string"
+            },
+            "cardMembers": {
+              "type": "array",
+              "items": {}
+            },
+            "cardLabel": {
+              "type": "string"
+            },
+            "cardDueDate": {
+              "type": "string"
+            },
+            "cardCompleted": {
+              "type": "boolean"
+            },
+            "cardDescription": {
+              "type": "string"
+            },
+            "cardActivity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "listId",
+            "cardTitle",
+            "cardMembers",
+            "cardLabel",
+            "cardDueDate",
+            "cardCompleted",
+            "cardDescription",
+            "cardActivity"
+          ]
+        }
+      ]
+    },
+    "cardCheckList": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "cardId": {
+              "type": "integer"
+            },
+            "cardCheckListCompleted": {
+              "type": "boolean"
+            },
+            "cardCheckListDescription": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "cardId",
+            "cardCheckListCompleted",
+            "cardCheckListDescription"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "cardId": {
+              "type": "integer"
+            },
+            "cardCheckListCompleted": {
+              "type": "boolean"
+            },
+            "cardCheckListDescription": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "cardId",
+            "cardCheckListCompleted",
+            "cardCheckListDescription"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "boards",
+    "lists",
+    "cards",
+    "cardCheckList"
+  ]
+}
