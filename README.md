@@ -17,11 +17,13 @@ An existing image has been published into the Docker Hub. To download it:
 ## To run the container
 If the container is locally built:
  - docker run -d -p 3000:3000 -v %cd%/MyTrello.json:/data/MyTrello.json mytrello-data-server
+
 If the container was pulled from The Docker Hub:
  - docker run -d -p 3000:3000 -v %cd%/MyTrello.json:/data/MyTrello.json sassi67/mytrello-data-server:1.0
 
 ## To test the container
  - Open the command prompt
  - curl -i http://localhost:3000/boards
+
 Or:
  - Open the browser and type http://localhost:3000
